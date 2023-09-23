@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head-image {
+  image-resolution: 10px;
+  margin: 10px;
+  padding: 10px;
+  height: 10rem;
+  width: 42rem;
+}
+.First-Header {
+  background-color: aqua;
+  margin: 10px;
+  padding: 10px;
+  max-width: fit-content;
+}
+.Company-name {
+  padding: 20px;
+  margin: 20px;
+  font-size: 3rem;
+  background-color: black;
+  color: wheat;
+  font-style: italic;
+}
+.Second-header {
+  margin: 10px;
+  padding: 10px;
+  background-color: peru;
+  margin-right: 39rem;
+}
+.second-name {
+  background-color: black;
+  color: wheat;
+  margin: 10px;
+  padding: 10px;
+}
+.Button-container {
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: aqua;
+  color: brown;
+}
+.third-header {
+  margin: 10px;
+  padding: 10px;
+  background-color: aqua;
+  margin-right: 39rem;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+.fourth-header {
+  margin: 10px;
+  padding: 10px;
+  background-color: brown;
+  color: aqua;
+  margin-right: 39rem;
+}
+.first-list {
+  margin: 10px;
+  padding: 10px;
+  background-color: darkgray;
+  color: blue;
+  list-style: none;
+  margin-right: 39rem;
+  border-radius: 10px;
+}
+.fifth-header {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(42, 15, 196);
+  color: rgb(203, 214, 52);
+  margin-right: 39rem;
+}
+.second-list {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(70, 5, 5);
+  color: rgb(11, 206, 141);
+  list-style: none;
+  margin-right: 39rem;
+  border-radius: 10px;
+}
+.links {
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  margin-right: 39rem;
+}
+.sixth-header {
+  margin: 10px;
+  padding: 10px;
+}
+.firstcontact-head {
+  margin: 10px;
+  padding: 10px;
+  background-color: aqua;
+  color: brown;
+  font-style: italic;
+  font-weight: 1000;
+  border-radius: 10px;
+  max-width: fit-content;
+}
+.secondcontact-head {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(47, 0, 255, 0.459);
+  color: rgb(184, 33, 91);
+  margin-right: 39rem;
+}
+.thirdcontact-head {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(30, 255, 0, 0.459);
+  color: blue;
+  margin-right: 39rem;
+}
+.fourthcontact-head {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(241, 9, 9, 0.459);
+  color: yellow;
+  margin-right: 39rem;
+}
+.fifthcontact-head {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(3, 15, 1, 0.459);
+  color: rgba(132, 0, 255, 0.774);
+  margin-right: 39rem;
+}
+.second-link {
+  margin: 10px;
+  padding: 10px;
+}
+.aboutfirst-head {
+  margin: 10px auto;
+  padding: 10px;
+  background-color: aqua;
+  color: brown;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 1000;
+  border-radius: 10px;
+  max-width: 30rem;
+  text-align: center;
+}
+.first-paragraph {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(54, 228, 23, 0.459);
+  color: rgba(132, 0, 255, 0.774);
+  font-size: 20px;
+}
+.second-paragraph {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(23, 44, 228, 0.459);
+  color: rgba(247, 211, 7, 0.774);
+  font-size: 20px;
+}
+.thirdabout-head {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(151, 13, 3, 0.904);
+  color: rgba(14, 216, 24, 0.774);
+  font-size: 20px;
+}
+.sign {
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  color: wheat;
+  font-size: 20px;
+  max-width: fit-content;
+}
+.date {
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  color: wheat;
+  font-size: 20px;
+  max-width: fit-content;
+}
+.services-head {
+  margin: 10px auto;
+  padding: 10px;
+  background-color: aqua;
+  color: brown;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 1000;
+  border-radius: 10px;
+  max-width: fit-content;
+  text-align: center;
+}
+.services-list {
+  margin: 10px;
+  padding: 10px;
+  background-color: darkgray;
+  color: blue;
+  list-style: none;
+  margin-right: 55rem;
+  border-radius: 10px;
+}

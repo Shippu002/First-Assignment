@@ -4,17 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <h1>Shippu Industries</h1>
-      <img
-        src="./image/pic5.jpg"
-        alt="The company logo"
-        width="700px"
-        height="100px"
-      />
-      <h2>Application form</h2>
+    <div class="First-Header">
+      <h1 class="Company-name">Shippu Industries</h1>
+      <img class="head-image" src="./image/pic5.jpg" alt="The company logo" />
+    </div>
+    <div class="Second-header">
+      <h2 class="second-name">Application form</h2>
       <form action="">
         <input type="text" placeholder="Name" />
         <br />
@@ -40,9 +38,9 @@
         <input type="email" placeholder="Email" />
         <br />
         <hr />
-        <label for="Question"
-          >Do you have any experience in this line of work ?</label
-        >
+        <label for="Question">
+          Do you have any experience in this line of work ?
+        </label>
         <br />
         <label for="Yes">Yes</label>
         <input type="checkbox" />
@@ -58,15 +56,16 @@
         <br />
         <label>If yes, where</label>
         <input type="text" />
-        <input type="submit" value="Submit" />
+        <br />
+        <input type="submit" value="Submit" class="Button-container" />
       </form>
     </div>
     <br />
     <hr />
-    <h3><u>Lists</u></h3>
-    <div> 
-      <h4><u>Favourite countries</u></h4>
-      <ul>
+    <h3 class="third-header"><u>Lists</u></h3>
+    <div>
+      <h4 class="fourth-header"><u>Favourite countries</u></h4>
+      <ul class="first-list">
         <li>Japan</li>
         <li>New York City</li>
         <li>England</li>
@@ -75,8 +74,8 @@
       </ul>
     </div>
     <div>
-      <h5><u>Favourite Foods</u></h5>
-      <ol>
+      <h5 class="fifth-header"><u>Favourite Foods</u></h5>
+      <ol class="second-list">
         <li>Fried Rice and Chicken</li>
         <li>Sharwarma</li>
         <li>Burger and fries</li>
@@ -84,11 +83,15 @@
         <li>Sushi</li>
       </ol>
     </div>
-    <a href="aboutus.html">About us</a>
-    <br />
-    <a href="contactus.html">Contact us</a>
-    <br />
-    <a href="services.html">Our Services</a>
-    <h6><u>This company is registerd by the Federal Government of Nigeria</u></h6>
+    <div class="links">
+      <a href="aboutus.html">About us</a>
+      <br />
+      <a href="contactus.html">Contact us</a>
+      <br />
+      <a href="services.html">Our Services</a>
+    </div>
+    <h6 class="sixth-header">
+      <u>This company is registerd by the Federal Government of Nigeria</u>
+    </h6>
   </body>
 </html>
