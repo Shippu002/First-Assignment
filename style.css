@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lora";
+}
+body {
+  background-color: white;
 }
 .head-image {
   image-resolution: 10px;
@@ -15,6 +19,7 @@
   margin: 10px;
   padding: 10px;
   max-width: fit-content;
+  margin-top: 120px;
 }
 .Company-name {
   padding: 20px;
@@ -22,12 +27,11 @@
   font-size: 3rem;
   background-color: black;
   color: wheat;
-  font-style: italic;
 }
 .Second-header {
   margin: 10px;
   padding: 10px;
-  background-color: peru;
+  background-color: gray;
   margin-right: 39rem;
 }
 .second-name {
@@ -35,6 +39,26 @@
   color: wheat;
   margin: 10px;
   padding: 10px;
+}
+[type] {
+  border-color: rgb(28, 31, 27);
+  color: green;
+  background-color: wheat;
+}
+[type="file"] {
+  background-color: gray;
+  color: purple;
+}
+::placeholder {
+  color: red;
+}
+label {
+  color: purple;
+}
+.Button-container:hover {
+  background-color: black;
+  color: yellow;
+  cursor: pointer;
 }
 .Button-container {
   margin-top: 20px;
@@ -47,7 +71,7 @@
 .third-header {
   margin: 10px;
   padding: 10px;
-  background-color: aqua;
+  background-color: darkgray;
   margin-right: 39rem;
   font-size: 2.5rem;
   font-style: italic;
@@ -56,8 +80,9 @@
   margin: 10px;
   padding: 10px;
   background-color: brown;
-  color: aqua;
+  color: rgb(203, 214, 52);
   margin-right: 39rem;
+  font-size: 30px;
 }
 .first-list {
   margin: 10px;
@@ -71,24 +96,19 @@
 .fifth-header {
   margin: 10px;
   padding: 10px;
-  background-color: rgb(42, 15, 196);
+  background-color: brown;
   color: rgb(203, 214, 52);
   margin-right: 39rem;
+  font-size: 30px;
 }
 .second-list {
   margin: 10px;
   padding: 10px;
-  background-color: rgb(70, 5, 5);
-  color: rgb(11, 206, 141);
+  background-color: darkgray;
+  color: green;
   list-style: none;
   margin-right: 39rem;
   border-radius: 10px;
-}
-.links {
-  margin: 10px;
-  padding: 10px;
-  background-color: black;
-  margin-right: 39rem;
 }
 .sixth-header {
   margin: 10px;
@@ -97,7 +117,6 @@
 .firstcontact-head {
   margin: 10px;
   padding: 10px;
-  background-color: aqua;
   color: brown;
   font-style: italic;
   font-weight: 1000;
@@ -107,21 +126,18 @@
 .secondcontact-head {
   margin: 10px;
   padding: 10px;
-  background-color: rgba(47, 0, 255, 0.459);
   color: rgb(184, 33, 91);
   margin-right: 39rem;
 }
 .thirdcontact-head {
   margin: 10px;
   padding: 10px;
-  background-color: rgba(30, 255, 0, 0.459);
   color: blue;
   margin-right: 39rem;
 }
 .fourthcontact-head {
   margin: 10px;
   padding: 10px;
-  background-color: rgba(241, 9, 9, 0.459);
   color: yellow;
   margin-right: 39rem;
 }
@@ -135,6 +151,9 @@
 .second-link {
   margin: 10px;
   padding: 10px;
+}
+body.contact {
+  background-color: gray;
 }
 .aboutfirst-head {
   margin: 10px auto;
@@ -151,8 +170,8 @@
 .first-paragraph {
   margin: 10px;
   padding: 10px;
-  background-color: rgba(54, 228, 23, 0.459);
-  color: rgba(132, 0, 255, 0.774);
+  background-color: rgba(23, 44, 228, 0.459);
+  color: rgba(247, 211, 7, 0.774);
   font-size: 20px;
 }
 .second-paragraph {
@@ -165,25 +184,28 @@
 .thirdabout-head {
   margin: 10px;
   padding: 10px;
-  background-color: rgba(151, 13, 3, 0.904);
-  color: rgba(14, 216, 24, 0.774);
+  background-color: black;
+  color: rgba(247, 211, 7, 0.774);
   font-size: 20px;
 }
 .sign {
   margin: 10px;
   padding: 10px;
-  background-color: black;
-  color: wheat;
+  background-color: rgba(23, 44, 228, 0.459);
+  color: rgba(247, 211, 7, 0.774);
   font-size: 20px;
   max-width: fit-content;
 }
 .date {
   margin: 10px;
   padding: 10px;
-  background-color: black;
-  color: wheat;
+  background-color: rgba(23, 44, 228, 0.459);
+  color: rgba(247, 211, 7, 0.774);
   font-size: 20px;
   max-width: fit-content;
+}
+body.body {
+  background-color: green;
 }
 .services-head {
   margin: 10px auto;
@@ -197,6 +219,9 @@
   max-width: fit-content;
   text-align: center;
 }
+body.services {
+  background-color: gray;
+}
 .services-list {
   margin: 10px;
   padding: 10px;
@@ -205,4 +230,35 @@
   list-style: none;
   margin-right: 55rem;
   border-radius: 10px;
+}
+
+.links {
+  border: 2px solid red;
+  padding: 2.5rem;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  width: 84.5rem;
+}
+
+.links > a {
+  padding: 10rem;
+}
+
+[href] {
+  color: yellow;
+}
+[href="index.html"] {
+  color: black;
+  margin: 10px;
+}
+.greetings {
+  border: 2px solid white;
+  bottom: 0;
+  margin-left: 79rem;
+  text-align: center;
+  max-width: 100px;
+  background-color: blue;
+  color: yellow;
+  position: fixed;
 }
